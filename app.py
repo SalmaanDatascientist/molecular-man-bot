@@ -4,7 +4,7 @@ from sympy.parsing.sympy_parser import parse_expr
 
 # Page configuration
 st.set_page_config(
-    page_title="Quadratic Equation Solver",
+    page_title="Quadratic Equation Solver ",
     page_icon="🧮",
     layout="wide"
 )
@@ -415,6 +415,6 @@ if st.button("Solve Equation", type="primary", use_container_width=True):
 st.markdown("---")
 st.markdown("""
     <div style="text-align: center; color: #808080; padding: 20px;">
-        <p>Developed by The Molecular Man | Expert Tuition Solutions</p>
+        <p>Developed by Mohammed Salmaan | The Molecular Man Expert Tuition Solutions</p>
     </div>
 """, unsafe_allow_html=True)
